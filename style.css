@@ -93,16 +93,36 @@ section{
     gap: 1rem;
     font-size: .7rem;
 }
+.response{
+    display: none;
+    font-size: 20px;
+}
+@media screen and (max-width: 640px) {
+    section{
+        flex-direction: column-reverse;
+    }
+    .nav-bar, .mode{
+        display: none;
+    }
+    .response{
+        display: block;
+    }
+    .img-section{
+        width: 100%;
+    }
+    .info-section{
+        width: 100%;
+    }
+}
 
-@media screen and (max-width: 715px) {
-    header nav{
-        display: grid;
-        align-items: start;
-        grid-template-areas: 
-        "name"
-        "mode"
-        "nav-bar"
-        ;
-        gap: 2rem;
+@media screen and (min-width: 640px) and (max-width: 1024px) {
+    section{
+        flex-direction: column-reverse;
+    }
+    .img-section{
+        width: 100%;
+    }
+    .info-section{
+        width: 100%;
     }
 }
