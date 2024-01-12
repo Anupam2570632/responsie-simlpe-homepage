@@ -109,9 +109,12 @@ section{
     }
     .img-section{
         width: 100%;
+        margin-bottom: 4rem;
     }
     .info-section{
         width: 100%;
+        margin-bottom: 4rem;
+
     }
 }
 
@@ -121,8 +124,12 @@ section{
     }
     .img-section{
         width: 100%;
+        margin-bottom: 4rem;
+
     }
     .info-section{
         width: 100%;
+        margin-bottom: 4rem;
+
     }
 }
